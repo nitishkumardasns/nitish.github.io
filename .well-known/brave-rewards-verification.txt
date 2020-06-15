@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nitishkumardas.tk
+Token: 801f4fd4fd98d8bad420ab776d47cacc49a30ec36474937b1c2b5dc0eeb0146e

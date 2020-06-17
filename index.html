@@ -13,19 +13,19 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Alatsi", sans-serif}
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
-
+  
 .dark-mode {
   background-color: black;
   color: white;
 }
 </style>
   </head>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 <body class="w3-light-grey">
 
 <!-- Page Container -->
@@ -151,11 +151,5 @@ body {
   Website Hosted On  <a href="https://pages.github.com"><img src="githubpages-logo.svg" width="70" height="30"></a>
   <button onclick="myFunction()">Toggle dark mode</button></p>
 </footer>
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
 </body>
 </html>
